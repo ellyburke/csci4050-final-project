@@ -13,7 +13,7 @@
         <div id="info">
             <h3>Please enter housing infomation</h3>
             <div id="selections">
-                <div class="select-group">
+                <div class="input-group">
                     <label for="bed-secetion">Number of beds:</label>
                     <select name="bed-selection" id="bed-selection" class="options">
                         <option value="1">1</option>
@@ -23,7 +23,7 @@
                     </select>
                 </div>
                 
-                <div class="select-group">
+                <div class="input-group">
                     <label for="bath-secetion">Number of baths:</label>
                     <select name="bath-selection" id="bath-selection" class="options">
                         <option value="1">1</option>
@@ -33,26 +33,23 @@
                     </select>
                 </div>
                
+                <div class="input-group">
+                    <label for="province-secetion">City:</label>
+                    <input>
+                </div>
+
+                <div class="input-group">
+                    <label for="province-sel9etion">State:</label>
+                    <input>
+                </div>
+
                 <div class="select-group">
-                    <label for="province-secetion">Province:</label>
-                    <select name="province-selection" id="province-selection" class="options">
-                        <option value="1">Alberta</option>
-                        <option value="2">British Columbia</option>
-                        <option value="3">Manitoba</option>
-                        <option value="4">New Brunswick</option>
-                        <option value="5">Newfoundland and Labrador</option>
-                        <option value="6">Northwest Territories</option>
-                        <option value="7">Nova Scotia</option>
-                        <option value="8">Nunavut</option>
-                        <option value="9">Ontario</option>
-                        <option value="10">Prince Edward Island</option>
-                        <option value="11">Quebec</option>
-                        <option value="12">Saskatchewan</option>
-                        <option value="13">Yukon</option>
-                    </select>
+                    <label for="bath-secetion">Square f:</label>
+                    
                 </div>
             </div>
             <br>
+            <label for="info-output" id="output-label">Predicted housing price:</label>
             <div id="info-output"></div>
         </div>
 
